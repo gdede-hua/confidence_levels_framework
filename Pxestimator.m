@@ -1,6 +1,5 @@
 function P=Pxestimator(ind,b,a,num,x)
 
-%x=-16:1:16;
 
 P=zeros(1,num);
 
