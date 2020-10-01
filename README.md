@@ -1,5 +1,12 @@
 # confidence_levels_framework
 
+## Table of contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+
+## Description
+
 This framework incorporates the confidence levels in pairwise comparisons (PWC), in order to deal with uncertainty issues related to the individual expert judgments.
 A theoretical model based on the multivariate normal cumulative distribution function is used to estimate the probability of rank reversal (PRR).
 
@@ -18,3 +25,5 @@ b. Pxestimator: takes as perameters the indexes [-8  8] converted from the value
 c. correlation_ij_github: estimates the PRR based on the MVNCDF
 
 
+## Usage
+This framework can be used in Octave and Matlab versions.
