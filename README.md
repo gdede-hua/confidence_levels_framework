@@ -13,4 +13,4 @@ In this context we provide the following functions:
 
 a. bestimator: estimated the p parameter of the exponential distribution function P(x+1)=a*exp(-b*|x|)
 b. Pxestimator: takes as perameters the indexes [-8  8] converted from the values of the nine level scale of Saaty (1/9 1/8 1/7/ 1/6/ 1/5 1/4 1/3 1/2 1 2 3 4 5 6 7 8 9), the b, the element ij of the PWC matrix, the number of values and estimates the probability for the PWC element ij. 
-c. correlation
+c. correlation_ij_github: estimates the PRR based on the MVNCDF
