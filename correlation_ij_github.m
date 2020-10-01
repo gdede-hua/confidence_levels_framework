@@ -1,3 +1,5 @@
+   function Prank=correlation_ij_github(experts,n,values)
+   
    experts=4;
    n=4;
    Corkl=zeros(n,n);
@@ -99,7 +101,7 @@
 
     
     
-    
+    end %end of function
     
     
    
