@@ -33,7 +33,7 @@
                     x2=  log(values).*Pexp(m,:,k,l);
                     Sx2=sum(x2);
                     Sx2=Sx2.^2;
-                    Sm(m,1)=-Sx1+Sx2;%Sx1+Sx2;
+                    Sm(m,1)=-Sx1+Sx2;
                 end %if k==l
             end %for m
             
